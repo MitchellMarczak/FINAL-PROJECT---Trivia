@@ -137,7 +137,7 @@ users_answer = input("Your answer: ")
 print()
 if users_answer in possible_choices:
   if users_answer == answers_set[8]:
-    print(f"Your answer of \"{answers_set[8]}\" was correct!\n")
+    print(f"Your answer of '{answers_set[8]}' was correct!\n")
     correct_answers += 1
   else:
     print(f"Your answer of '{users_answer}' incorrect!\n")
